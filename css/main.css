@@ -140,7 +140,11 @@ margin-bottom:20px
 #about p {
 text-align:justify;
 color: #35a4d3;
+<<<<<<< HEAD
 font-size:18px;
+=======
+font-size:20px;
+>>>>>>> 5ecaa243be2504bb9bc46c3d6d5b87fdc5c0024e
 margin-top:30px;
 }
 
