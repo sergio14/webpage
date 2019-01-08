@@ -1,269 +1,285 @@
+ <!--https://medium.com/@robcobbable/make-a-resume-website-from-scratch-991845147ec -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Sergio Villordo</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">	
+    <!-- OPTIONAL: description -->
+    <meta name="description" content="">
+    <!-- OPTIONAL: author -->
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="icon.png" />
+
+		<!-- EDIT: title -->
+    <title>My Awesome Resume</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Link the main.css stylesheet -->
+    <link href="css/main.css" rel="stylesheet">
+    
+    <!-- OPTIONAL: Google Fonts (don't forget to edit main.css also) -->
+
+    <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 
 
-	 <!-- Loading Bootstrap -->
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Loading Flat UI -->
-    <link href="css/flat-ui.css" rel="stylesheet">
-	<link href="css/main.css" rel="stylesheet">
-
-<script src="js/jquery.js"></script>
-<script type="text/javascript" src="js/raphael.js"></script>
-<script type="text/javascript" src="js/jquery.pagescroller.lite.js"></script>
-<<<<<<< HEAD
-
-	 </head>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
   <body>
 
-	<div id="wrapper">
-
-=======
+	<div id="header" class="header">
+		<div class="container">
+			<p class="text-center"><img class="portada" src="images/2.png"/></p>
+			<div class="row centered">
+				<div class="col-lg-12">
+					<!-- EDIT: name -->
+					<h1>Sergio Villordo</h1>
+					<!-- EDIT: title | email -->
+					<h3>Research Scientist</h3>
+				</div><!--/.col-lg-12 -->
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/.header -->
 	
-	
-  <body>
 
-	<div id="wrapper">
- 
->>>>>>> 5ecaa243be2504bb9bc46c3d6d5b87fdc5c0024e
- <div id="myNavigation" class="pageScrollerNav">
-		<ul>
-			<li><a href="#work" class="stylish"><span>about</span></a></li>
-			<li><a href="#experience" class="stylish"><span>projects</span></a></li>
-			<li><a href="#awards" class="stylish"><span>awards</span></a></li>
-			<li><a href="#contacto" class="stylish"><span>contact</span></a></li>
-		</ul>
-	</div>
-
-    <div id="header" class="jumbotron">
-			<div class="container">
-			 <p class="text-center"><img class="portada" src="img/fot3.png	"/></p>
-				<p  id="menu" class="text-center">Sergio Manuel Villordo</p>
-<<<<<<< HEAD
-				<p  id="menu" class="text-center"><a href="http://en.wikipedia.org/wiki/Data_science">Data Scientist</a></p>
-			</p>
-			</div>
-	</div>
-
-
-=======
-				<p  id="menu" class="text-center"><a href="http://en.wikipedia.org/wiki/Data_science">Data Scientist</a></p>		
-			</p>
-			</div>
-	</div>
-	
-		
->>>>>>> 5ecaa243be2504bb9bc46c3d6d5b87fdc5c0024e
-
-
- <div id="work" class="jumbotron section">
-	<div class="container">
-		 <div class="text-center col-sm-6 col-md-6">
-<<<<<<< HEAD
-			  <h2>About Myself</h2>
-			  <p>I’m an enthusiast and creative scientist with wide experience in the study of complex data.
-			  I enjoy exploring crude data collected from sensors, social networks, satellites or biological
-			  sources, and employing data analysis tools to mine hidden gems or predicting
-			  underlying behaviors.
-
-			</p>
-			<p>
-			My professional background include data mining, machine learning, computing, visualization,
-			database management, agronomy, molecular biology, genetics, microbiology and immunology.
-				</p>
-
-=======
-			  <h2>About me</h2>
-			  <p>I’m an enthusiast and creative scientist with deep experience in the study of complex data. 
-			  I enjoy exploring messy data collected from sensors, social networks, satellites or biological 
-			  sources and employ data mining and computational tools to mine hidden treasures or predict 
-			  underlying behaviors.  
+	<section id="about" name="about"></section>
+	<div class="about">
+		<div class="container">
+			<div class="row">
 				
-			</p>
-			<p>
-			My professional background includes data mining, machine learning, computation, information visualization, 
-			data base management, molecular biology, genetics, microbiology and immunology.
-				</p>
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>ABOUT</h5>
+				</div>
+				<div class="col-lg-6">
+					<!-- EDIT: about -->
+					<p>Bright, creative and enthusiastic data scientist with more than ten years experience doing research at academia and private companies. Has a endless intellectual curiosity, and an ability to mine hidden gems from the deep of complex data sources. 
+In addition to the strong Machine Learning, Statistical Analysis and Molecular Biology background, other major strengths include, leadership, problem-solver and responsibility, as well as excellent communication skills and team work.
+</p>
+				</div>
+				<div class="col-lg-3">
+					<!-- EDIT: download link -->
+					<p><a href="images/Sergio_Villordo_CV_Jan19.pdf" target="_blank"><i class="icon-file"></i> <sm>DOWNLOAD FULL CV PDF</sm></a></p>
+				</div>
+				
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/ #intro -->
+
+
+	<section id="resume" name="resume"></section>
+	<!-- EDUCATION SECTION -->
+	<div class="container desc">
+		<div class="row">
+
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>EDUCATION</h5>
+				</div>
+				<!-- EDIT: education line 1 -->
+				<div class="col-lg-6">
+					<p><t>PhD in Biological Chemistry and Bioinformatics</t><br/>
+						Universidad de Buenos Aires (UBA), Buenos Aires, Argentina.
+						<!--<br/><i>Extra info here</i>-->
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>MARCH 2016</sm><br/>
+					<!--<imp><sm>IN PROGRESS</sm></imp>-->
+					</p>
+				</div>
+	
+				<!-- EDIT: education line 2 -->
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Specialization in Data Mining and Knowledge discovery </t><br/>
+						 Universidad de Buenos Aires (UBA), Buenos Aires, Argentina.
+						<!--<br/><i>Extra info here</i>-->
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>DECEMBER 2014</sm></p>
+				</div>
+
+				<!-- EDIT: education line 3 -->
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Bachelor of Science in Genetics</t><br/>
+						 Universidad Nacional de Misiones (UNaM), Misiones, Argentina.
+						<!--<br/><i>Extra info here</i>-->
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>MARCH 2009</sm></p>
+				</div>
+
+	
+		</div><!--/.row -->
+		<br>
+		<hr>
+	</div><!--/.container -->
+	
+	<!-- WORK SECTION -->
+	<div class="container desc">
+		<div class="row">
+
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>WORK</h5>
+				</div>
+				<!-- EDIT: work line 1 -->
+				<div class="col-lg-6">
+					<p class="tight"><t>Data Scientist Dev </t><br/>
+						Despegar.com <br/>
+					</p>
+					<p><more>At Despegar I’m working in an Artificial Intelligence Research Group focus on development of tools and microservices for image classification, content moderation and personalized customer recommendations. This group is strongly interested in the application of the state of the art Machine Learning and AI tools for the development of innovative solutions for the company.
+				</more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>JULY 2017 - CURRENT <br />
+					BUENOS AIRES, ARGENTINA</sm></p>
+				</div>
+				
+				<!-- EDIT: work line 2-->
+				<div class="col-lg-6 col-lg-offset-3">
+					<p class="tight"><t>Research Scientist </t><br/>
+						Etermax<br/>
+					</p>
+					<p><more>At Etermax, I worked two smalls groups, one focused on image and text classification for content moderation, and the other on customer lifetime value prediction.</more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>MARCH 2016 - JULY 2017 <br />
+					BUENOS AIRES, ARGENTINA</sm></p>
+				</div>
+
+					<!-- EDIT: work line 3-->
+				<div class="col-lg-6 col-lg-offset-3">
+					<p class="tight"><t>Data Scientist </t><br/>
+						Globant <br/>
+					</p>
+					<p><more> Working as Data Scientist consultant for Globant, I was involved with diverse clients and projects regarding: employees attrition, customer opinions and surveys text-analytics, time series modelling and sales forecasting, and operation research applied to products price optimization.</more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>MARCH 2015 - JULY 2016 <br />
+					BUENOS AIRES, ARGENTINA</sm></p>
+				</div>
+				<!-- EDIT: work line 4-->
+				<div class="col-lg-6 col-lg-offset-3">
+					<p class="tight"><t>Master Specialization Thesis</t><br/>
+						Laboratory of Molecular Virology, Fundación Instituto Leloir. <br/>
+					</p>
+					<p><more> Title: “Use Statistical and deep learning approaches for multidimensional decomposition and noise reduction in high throughput sequencing”. This specialization work has been focused on the development of a new methodologies for RNA virus quasispecies analysis using NGS sequencing.
+				</more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>MARCH 2014 - DECEMBER 2014 <br />
+					BUENOS AIRES, ARGENTINA</sm></p>
+				</div>
+					<!-- EDIT: work line 5-->
+				<div class="col-lg-6 col-lg-offset-3">
+					<p class="tight"><t>PhD Thesis</t><br/>
+						Laboratory of Molecular Virology, Fundación Instituto Leloir. <br/>
+					</p>
+					<p><more> Title: “Studies of RNA structures that regulate dengue virus replication in humans and mosquitoes”. The objective of this thesis was the discover of new insights about DENGUE virus replication and was focused on the study of genome RNA structures. As result of combining a plethora of biochemical, cell culture, deep sequencing and bioinformatics experiments tools we discovered new important insights about RNA virus replications. The result of the these findings were published at high impact indexed journals.
+				</more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>MARCH 2010 - JULY 2015 <br />
+					BUENOS AIRES, ARGENTINA</sm></p>
+				</div>
+
+
+		</div><!--/.row -->
+		<br>
+		<hr>
+	</div><!--/.container -->
+
+
+	<!-- AWARDS SECTION -->
+	<div class="container desc">
+		<div class="row">
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>AWARDS</h5>
+				</div>
+
+				<!-- EDIT: awards line 1-->
+				<div class="col-lg-6">
+					<p><t>Honorable Mention</t><br/>
+						“Development of an Regression Model to Predict Solid Waste Levels in the City”. Organized by the Government of Buenos Aires.<br/>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>MAY 2014</sm></p>
+				</div>
+
+
+			<!-- EDIT: awards line 2-->
+				<div class="col-lg-6 col-lg-offset-3">
+					<p class="tight"><t>Honorable Mention</t><br/>
+						“Predictive Analysis of Crop Fields in Small Soil Areas”.  Organized by Sadosky Foundation and the National Ministry of Science and Technology
+					</p>
+
+				</div>
+				<div class="col-lg-3">
+					<p><sm>October 2014</sm></p>
+				</div>
+
+	
+				<!-- EDIT: awards line 2-->
+				<div class="col-lg-6 col-lg-offset-3">
+					<p class="tight"><t>International Internship fellow</t><br/>
+						Defense Advanced Research Projects Agency (DARPA)
+					</p>
+					<p><more> Research Topic: “Studies of viral population using ultra-deepsequencig techniques”</more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>October 2013</sm></p>
+				</div>
+
+
+
+		</div><!--/.row -->
+		<br>
+	</div><!--/.container -->
+	
+
+	<section id="contact" name="contact"></section>
+	<!--FOOTER DESCRIPTION -->
+	<div id="footwrap" class="footer">
+		<div class="container">
+			<div class="row">
 			
->>>>>>> 5ecaa243be2504bb9bc46c3d6d5b87fdc5c0024e
-			  <p><a class="btn btn-default" href="statments.html" role="button">Read More about me »</a></p>
-		 </div>
-         <div class="text-center col-sm-6 col-md-6">
-				<img id="ima" src="img/CV.gif"></img>
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>CONTACT</h5>
 				</div>
-	</div>
-				<h5 class="text-center">Download resume</h5>
-				<div class="text-center">
-				<a href="data/CV_eng.pdf"><button class="btn btn-hg btn-primary">English</button></a>
-				<a href="data/CV_esp.pdf"><button class="btn btn-hg btn-primary">Spanish</button></a>
+				<!-- EDIT: email -->
+				<div class="col-lg-6">
+					<p><t>Email</t><br/>
+						<a href="mailto:villordosergiomanuel@gmail.com" target="_blank" class="mail">contact@me</a> <br/>
+					</p>
+					<!-- EDIT: address -->
+					<p><t>Address</t><br/>
+						Buenos Aires, Argentina <br/>
+					</p>
+					<!-- EDIT: phone number -->
 				</div>
-
-	</div
-
-</div>
-<<<<<<< HEAD
-
-
-
- <div id="experience" class="jumbotron section">
-		<h2 class="text-center">Projects</h2>
-
-      <!-- Example row of columns -->
-      <div class="row">
-
-        <div class="text-center col-sm-6 col-md-6">
-          <h3>Twitter Data Analysis</h3>
-          <p>
-			  This project involved the search of twitts using the of twitter API, automatic data processing with R, and visual representation employing d3.js. The next example corresponds to data obtained for two related hashtags monitored during a couple of hours.
-			   </p>
-		  <div id ="ima1" class="text-center" ><img src="img/twitts.png"/></div>
-          <p><a  href="http://sergio14.github.io/twitts18F/">View example at Github»</a></p>
-        </div>
-
-			 <div class="text-center col-sm-6 col-md-6">
-			  <h3>Deep Sequencing Data Analysis</h3>
-				<p>
-					In this project, data mining tools were used to develop a framework to analyze data generated by new generation sequencing devices. Multidimensional scaling and density clustering was used to detect low frequency sequences.
-				  </p>
-				<div id ="ima1" class="text-center" ><img src="img/seq2.png"/></div>
-				<p><a  href="http://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1004604">Read paper at publish»</a></p>
+				<div class="col-lg-3">
+					<p><sm>SOCIAL LINKS</sm></p>
+					<p>
+						<!-- EDIT: Social Links. Replace # with your URL for each -->
+						<a href="https://twitter.com/Ser08" target="_blank"><i class="icon-twitter"></i></a>
+						<a href="#" target="_blank"><i class="icon-facebook"></i></a>
+						<a href="linkedin.com/in/sergio-manuel-villordo-7154b0a6" target="_blank"><i class="icon-linkedin"></i></a>
+						<a href="https://gitlab.com/sergio08" target="_blank"><i class="icon-github"></i></a>
+						<a href="https://github.com/sergio14" target="_blank"><i class="icon-github"></i></a>
+					</p>
 				</div>
-		</div>
-
-			 <div id="bot" class="text-center">
-				<a href="experiences.html"><button id="boton" class="btn btn-default">View more projects</button></a>
-			</div>
-	</div>
-
-
-
-
-
-
-=======
-	
-	
-	
- <div id="experience" class="jumbotron section">
-		<h2 class="text-center">Projects</h2>
-		
-      <!-- Example row of columns -->
-      <div class="row">
-		  
-        <div class="text-center col-sm-6 col-md-6">
-          <h3>Twitter Data Analysis</h3>
-          <p>
-			  This project involved the search of twitts using the of twitter API, automatic data processing with R, and visual representation employing d3.js. The showed example corresponds to data obtained with two related hashtags monitored during a couple of hours.
-			   </p>
-		  <div id ="ima1" class="text-center" ><img src="img/twitts.png"/></div>
-          <p><a  href="http://sergio14.github.io/twitts18F/">view at Github»</a></p>
-        </div>
-        
-			 <div class="text-center col-sm-6 col-md-6">
-			  <h3>Deep Sequencing Data Analysis</h3>
-				<p>
-					In this project data mining tools were used to develop a framework to analyze data generated by new generation sequencing devices. Multidimensional scaling and density clustering was used to detect low frequency sequences. 
-				  </p>
-				<div id ="ima1" class="text-center" ><img src="img/seq2.png"/></div>
-				<p><a  href="http://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1004604">read paper»</a></p>
-				</div>
-		</div>  
-			 
-			 <div id="bot" class="text-center">
-				<a href="experiences.html"><button id="boton" class="btn btn-default">view more projects</button></a>
-			</div>
-	</div>
-	
-	 
- 	
-
-	  
-	  
->>>>>>> 5ecaa243be2504bb9bc46c3d6d5b87fdc5c0024e
- <div id="awards" class="jumbotron section">
-	<div class="container">
-		<h2 class="text-center">Awards</h2>
-		 <div class="text-center col-sm-6 col-md-6">
-			  <h3>•	Hackaton AgroDatos</h3>
-			  <p> Honorable Mention: “Predictive Analysis of Crop Fields in Small Soil Areas”. Buenos Aires. 2014, October 25. Organized by Sadosky Foundation and the National Ministry of Science and Technology. </p>
-			  <p><a class="btn btn-default" href="http://www.fundacionsadosky.org.ar/agrodatos/" role="button">Read More »</a></p>
-		 </div>
-        <div class="text-center col-sm-6 col-md-6">
-			  <h3>•	Hackaton Verde</h3>
-			  <p>Honorable Mention: “Development of an Regression Model to Predict Solid Waste Levels in the City”. Buenos Aires, 2014 May 16th and 17th. Organized by the Government of Buenos Aires.  </p>
-			  <p><a class="btn btn-default" href="http://www.buenosaires.gob.ar/noticias/se-anunciaron-los-ganadores-del-primer-hackaton-verde" role="button">Read More »</a></p>
-		 </div>
-<<<<<<< HEAD
-
-		</div>
-	</div>
-
-
-
-	<div id="contacto" class="jumbotron section">
-	<h2 class="text-center">Contact</h2>
-	<p class="text-center"><img src="img/email.png"></p>
-
-
-=======
-		 
-		</div>
-	</div>
-
-	  
-	
-	<div id="contacto" class="jumbotron section">
-	<h2 class="text-center">Contact</h2>
-	<p class="text-center"><img src="img/email.png"></p>
-	
-	
->>>>>>> 5ecaa243be2504bb9bc46c3d6d5b87fdc5c0024e
-				<div class="home-bottom">
-					<ul id="contact-buttons">
-						<li><a href="https://www.facebook.com/sergiomanuel.villordo" target="_blank"><img src="img/fbnew.png" /></a></li>
-						<li><a href="https://twitter.com/Ser08" target="_blank"><img src="img/twitternew.png" /></a></li>
-						<li><a href="https://github.com/sergio14" target="_blank"><img src="img/githubnew.png" /></a></li>
-						<li><a href="https://plus.google.com/u/0/113666418659868959636/posts" target="_blank"><img src="img/googlenew.png" /></a></li>
-						<li><a href="https://ar.linkedin.com/pub/sergio-manuel-villordo/a6/4b0/715" target="_blank"><img src="img/linkedinnew.png" /></a></li>
-					</ul>
-				</div>
-	</div>
-
-
-
-
-
-<div id="footer" class="container">
-	<p><span class="text-left">© 2015 Sergio Villordo</span></p>
-<<<<<<< HEAD
-
-=======
-			
->>>>>>> 5ecaa243be2504bb9bc46c3d6d5b87fdc5c0024e
-</div>
-
-
-</div>
-
-</div>
-
-
-
-
-<script>
-  $('#wrapper').pageScroller({
-    sectionClass: 'section',
-    navigation: '#myNavigation',
-  });
-
-</script>
-
-
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/ #footer -->
   </body>
 </html>
